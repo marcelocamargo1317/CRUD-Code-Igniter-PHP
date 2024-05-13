@@ -1,0 +1,406 @@
+CRITICAL - 2024-05-10 00:23:47 --> ParseError: syntax error, unexpected token "!"
+[Method: GET, Route: clientes]
+in APPPATH\Models\ClientesModel.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\ci\\app\\Models\\ClientesModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ClientesModel')
+ 3 APPPATH\Controllers\Clientes.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ClientesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-10 00:27:19 --> ParseError: syntax error, unexpected token "}"
+[Method: GET, Route: clientes]
+in APPPATH\Models\ClientesModel.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\ci\\app\\Models\\ClientesModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ClientesModel')
+ 3 APPPATH\Controllers\Clientes.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ClientesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-10 00:54:51 --> ParseError: Invalid numeric literal
+[Method: GET, Route: clientes]
+in APPPATH\Controllers\Clientes.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\ci\\app\\Controllers\\Clientes.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Clientes')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Clientes')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Clientes', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-10 01:08:37 --> Exception: Atenção: informar somente números no CPF
+[Method: GET, Route: clientes]
+in APPPATH\Models\ClientesModel.php on line 29.
+ 1 APPPATH\Models\ClientesModel.php(21): App\Models\ClientesModel->confereCPF('a12345678911', 12)
+ 2 APPPATH\Controllers\Clientes.php(15): App\Models\ClientesModel->getClientes('a12345678911')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-10 01:08:51 --> Exception: Atenção: informar somente números no CPF
+[Method: GET, Route: clientes]
+in APPPATH\Models\ClientesModel.php on line 29.
+ 1 APPPATH\Models\ClientesModel.php(21): App\Models\ClientesModel->confereCPF('a12345678911', 12)
+ 2 APPPATH\Controllers\Clientes.php(15): App\Models\ClientesModel->getClientes('a12345678911')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-10 03:35:04 --> ErrorException: Attempt to read property "parse_str" on null
+[Method: GET, Route: clientes]
+in APPPATH\Controllers\Clientes.php on line 17.
+ 1 APPPATH\Controllers\Clientes.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parse_str" on null', 'C:\\ci\\app\\Controllers\\Clientes.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-10 03:36:31 --> ArgumentCountError: Too few arguments to function App\Controllers\Clientes::listarClientes(), 0 passed in C:\ci\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: clientes]
+in APPPATH\Controllers\Clientes.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-10 03:37:23 --> ArgumentCountError: Too few arguments to function App\Controllers\Clientes::listarClientes(), 0 passed in C:\ci\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: clientes/]
+in APPPATH\Controllers\Clientes.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-10 03:39:41 --> ArgumentCountError: Too few arguments to function App\Controllers\Clientes::listarClientes(), 0 passed in C:\ci\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: clientes/]
+in APPPATH\Controllers\Clientes.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-10 03:40:26 --> ArgumentCountError: Too few arguments to function App\Controllers\Clientes::listarClientes(), 0 passed in C:\ci\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: clientes/]
+in APPPATH\Controllers\Clientes.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-10 03:40:44 --> ArgumentCountError: Too few arguments to function App\Controllers\Clientes::listarClientes(), 0 passed in C:\ci\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: clientes/]
+in APPPATH\Controllers\Clientes.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-10 06:26:28 --> ErrorException: Attempt to read property "parse_str" on null
+[Method: GET, Route: clientes/12345678901]
+in APPPATH\Controllers\Clientes.php on line 17.
+ 1 APPPATH\Controllers\Clientes.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parse_str" on null', 'C:\\ci\\app\\Controllers\\Clientes.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('12345678901')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-10 15:38:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "00044455514.php"
+[Method: GET, Route: clientes/00044455514]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('00044455514.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('00044455514', [], true)
+ 3 APPPATH\Controllers\Clientes.php(17): view('00044455514')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455514')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-10 15:39:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "00044455514.php"
+[Method: GET, Route: clientes/00044455514]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('00044455514.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('00044455514', [], true)
+ 3 APPPATH\Controllers\Clientes.php(17): view('00044455514')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455514')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-10 15:44:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "view/index.php"
+[Method: GET, Route: clientes/00044455514]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('view/index', [], true)
+ 3 APPPATH\Controllers\Clientes.php(17): view('view/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455514')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-10 15:45:48 --> ErrorException: Undefined variable $data
+[Method: GET, Route: clientes/00044455514]
+in APPPATH\Views\clientes\index.php on line 3.
+ 1 APPPATH\Views\clientes\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\ci\\app\\Views\\clientes\\index.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\clientes\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/index', [], true)
+ 5 APPPATH\Controllers\Clientes.php(17): view('clientes/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455514')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-10 15:50:52 --> ErrorException: Undefined variable $data
+[Method: GET, Route: clientes/00044455514]
+in APPPATH\Views\clientes\index.php on line 1.
+ 1 APPPATH\Views\clientes\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\ci\\app\\Views\\clientes\\index.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\clientes\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/index', [], true)
+ 5 APPPATH\Controllers\Clientes.php(17): view('clientes/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455514')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-10 15:51:12 --> ErrorException: Undefined variable $data
+[Method: GET, Route: clientes/00044455514]
+in APPPATH\Views\clientes\index.php on line 1.
+ 1 APPPATH\Views\clientes\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\ci\\app\\Views\\clientes\\index.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\clientes\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/index', [], true)
+ 5 APPPATH\Controllers\Clientes.php(17): view('clientes/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455514')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-10 16:08:05 --> ErrorException: Undefined variable $data
+[Method: GET, Route: clientes/00044455514]
+in APPPATH\Views\clientes\index.php on line 1.
+ 1 APPPATH\Views\clientes\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\ci\\app\\Views\\clientes\\index.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\clientes\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/index', [], true)
+ 5 APPPATH\Controllers\Clientes.php(17): view('clientes/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455514')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-10 16:25:09 --> ErrorException: Undefined variable $data
+[Method: GET, Route: clientes/00044455514]
+in APPPATH\Views\clientes\index.php on line 2.
+ 1 APPPATH\Views\clientes\index.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\ci\\app\\Views\\clientes\\index.php', 2)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\clientes\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/index', [], true)
+ 5 APPPATH\Controllers\Clientes.php(17): view('clientes/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455514')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-10 16:25:14 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\ci\app\Controllers\Clientes.php on line 17
+[Method: GET, Route: clientes/00044455514]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\Clientes.php(17): view('clientes/index', 'José')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455514')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-10 16:51:47 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\ci\app\Controllers\Clientes.php on line 17
+[Method: GET, Route: clientes/00044455514]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\Clientes.php(17): view('clientes/index', 'José')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455514')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-10 23:40:35 --> ErrorException: Undefined variable $title
+[Method: GET, Route: clientes/cadastrar]
+in APPPATH\Views\templates\header.php on line 8.
+ 1 APPPATH\Views\templates\header.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\ci\\app\\Views\\templates\\header.php', 8)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Clientes.php(24): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->novoCliente()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-10 23:41:25 --> ErrorException: Undefined variable $title
+[Method: GET, Route: clientes/cadastrar]
+in APPPATH\Views\news\create.php on line 1.
+ 1 APPPATH\Views\news\create.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\ci\\app\\Views\\news\\create.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\news\\create.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('news/create', [], true)
+ 5 APPPATH\Controllers\Clientes.php(25): view('news/create')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->novoCliente()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+INFO - 2024-05-10 23:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-10 23:42:05 --> Error: Call to undefined function validation_list_errors()
+[Method: GET, Route: clientes/cadastrar]
+in APPPATH\Views\clientes\create.php on line 4.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/create', [], true)
+ 4 APPPATH\Controllers\Clientes.php(25): view('clientes/create')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->novoCliente()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+INFO - 2024-05-10 23:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-10 23:43:52 --> Error: Call to undefined function validation_list_errors()
+[Method: GET, Route: clientes/cadastrar]
+in APPPATH\Views\clientes\create.php on line 4.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/create', [], true)
+ 4 APPPATH\Controllers\Clientes.php(25): view('clientes/create')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->novoCliente()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+INFO - 2024-05-10 23:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-10 23:44:08 --> Error: Call to undefined function validation_list_errors()
+[Method: GET, Route: clientes/cadastrar]
+in APPPATH\Views\clientes\create.php on line 4.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/create', [], true)
+ 4 APPPATH\Controllers\Clientes.php(25): view('clientes/create')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->novoCliente()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+INFO - 2024-05-10 23:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-10 23:45:27 --> Error: Call to undefined function validation_list_errors()
+[Method: GET, Route: clientes/cadastrar]
+in APPPATH\Views\clientes\create.php on line 4.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/create', [], true)
+ 4 APPPATH\Controllers\Clientes.php(25): view('clientes/create')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->novoCliente()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+INFO - 2024-05-10 23:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-10 23:49:13 --> Error: Call to undefined function validation_list_errors()
+[Method: GET, Route: clientes/cadastrar]
+in APPPATH\Views\clientes\create.php on line 4.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/create', [], true)
+ 4 APPPATH\Controllers\Clientes.php(25): view('clientes/create')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->novoCliente()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-10 23:52:58 --> ErrorException: Undefined variable $title
+[Method: GET, Route: clientes/cadastrar]
+in APPPATH\Views\clientes\create.php on line 1.
+ 1 APPPATH\Views\clientes\create.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\ci\\app\\Views\\clientes\\create.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\clientes\\create.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/create', [], true)
+ 5 APPPATH\Controllers\Clientes.php(25): view('clientes/create')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->novoCliente()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-10 23:53:08 --> ErrorException: Undefined variable $title
+[Method: GET, Route: clientes/cadastrar]
+in APPPATH\Views\clientes\create.php on line 1.
+ 1 APPPATH\Views\clientes\create.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\ci\\app\\Views\\clientes\\create.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\clientes\\create.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/create', [], true)
+ 5 APPPATH\Controllers\Clientes.php(25): view('clientes/create')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->novoCliente()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')

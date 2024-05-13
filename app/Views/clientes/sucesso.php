@@ -1,0 +1,1 @@
+Cadastro de <?= esc($nome) ?> realizado com sucesso!

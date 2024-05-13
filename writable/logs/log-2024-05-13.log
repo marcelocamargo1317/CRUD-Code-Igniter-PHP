@@ -1,0 +1,1075 @@
+CRITICAL - 2024-05-13 00:36:36 --> TypeError: view(): Argument #2 ($data) must be of type array, null given, called in C:\ci\app\Controllers\Clientes.php on line 27
+[Method: GET, Route: clientes/]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\Clientes.php(27): view('clientes/index', null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+INFO - 2024-05-13 01:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 01:55:35 --> CSRF token verified.
+CRITICAL - 2024-05-13 02:00:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "clientes/create.php"
+[Method: GET, Route: clientes/cadastrar]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes/create.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/create', [], true)
+ 3 APPPATH\Controllers\Clientes.php(34): view('clientes/create')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->novoCliente()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+INFO - 2024-05-13 02:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:20:52 --> CSRF token verified.
+INFO - 2024-05-13 02:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:56:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 02:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:37:44 --> CSRF token verified.
+INFO - 2024-05-13 03:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:59:22 --> CSRF token verified.
+INFO - 2024-05-13 03:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 03:59:35 --> CSRF token verified.
+ERROR - 2024-05-13 03:59:35 --> mysqli_sql_exception: Duplicate entry '12345678910' for key 'clientes.cpf' in C:\ci\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\ci\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\ci\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\ci\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\ci\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\ci\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\ci\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\ci\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\ci\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\ci\app\Models\ClientesModel.php(29): CodeIgniter\BaseModel->save(Array)
+#9 C:\ci\app\Controllers\Clientes.php(43): App\Models\ClientesModel->insertClientes(Array)
+#10 C:\ci\system\CodeIgniter.php(933): App\Controllers\Clientes->insereAtualizaCliente()
+#11 C:\ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#12 C:\ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\ci\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#14 C:\ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#15 C:\ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#16 C:\ci\system\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\in...')
+#17 {main}
+CRITICAL - 2024-05-13 03:59:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '12345678910' for key 'clientes.cpf'
+[Method: POST, Route: clientes]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `clientes` (`nome`, `sobrenome`, `cpf`) VALUES (:nome:, :sobrenome:, :cpf:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Models\ClientesModel.php(29): CodeIgniter\BaseModel->save([...])
+ 7 APPPATH\Controllers\Clientes.php(43): App\Models\ClientesModel->insertClientes([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->insereAtualizaCliente()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 03:59:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '12345678910' for key 'clientes.cpf'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `clientes` (`nome`, `sobrenome`, `cpf`) VALUES (\'mar\', \'Maria\', \'12345678910\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `clientes` (`nome`, `sobrenome`, `cpf`) VALUES (\'mar\', \'Maria\', \'12345678910\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `clientes` (`nome`, `sobrenome`, `cpf`) VALUES (:nome:, :sobrenome:, :cpf:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Models\ClientesModel.php(29): CodeIgniter\BaseModel->save([...])
+ 9 APPPATH\Controllers\Clientes.php(43): App\Models\ClientesModel->insertClientes([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->insereAtualizaCliente()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 03:59:35 --> [Caused by] mysqli_sql_exception: Duplicate entry '12345678910' for key 'clientes.cpf'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `clientes` (`nome`, `sobrenome`, `cpf`) VALUES (\'mar\', \'Maria\', \'12345678910\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `clientes` (`nome`, `sobrenome`, `cpf`) VALUES (\'mar\', \'Maria\', \'12345678910\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `clientes` (`nome`, `sobrenome`, `cpf`) VALUES (\'mar\', \'Maria\', \'12345678910\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `clientes` (`nome`, `sobrenome`, `cpf`) VALUES (:nome:, :sobrenome:, :cpf:)', [...], false)
+ 5 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\ClientesModel.php(29): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\Clientes.php(43): App\Models\ClientesModel->insertClientes([...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->insereAtualizaCliente()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+INFO - 2024-05-13 03:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 04:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 04:00:10 --> CSRF token verified.
+INFO - 2024-05-13 04:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 04:00:28 --> CSRF token verified.
+INFO - 2024-05-13 04:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-13 04:15:12 --> ErrorException: Undefined variable $nome
+[Method: GET, Route: clientes/]
+in APPPATH\Views\clientes\index.php on line 1.
+ 1 APPPATH\Views\clientes\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nome', 'C:\\ci\\app\\Views\\clientes\\index.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\clientes\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/index', [], true)
+ 5 APPPATH\Controllers\Clientes.php(27): view('clientes/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 04:15:49 --> ErrorException: Undefined variable $nome
+[Method: GET, Route: clientes/]
+in APPPATH\Views\clientes\index.php on line 1.
+ 1 APPPATH\Views\clientes\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nome', 'C:\\ci\\app\\Views\\clientes\\index.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\clientes\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/index', [], true)
+ 5 APPPATH\Controllers\Clientes.php(27): view('clientes/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 04:27:37 --> ErrorException: Undefined variable $nome
+[Method: GET, Route: clientes/]
+in APPPATH\Views\clientes\index.php on line 1.
+ 1 APPPATH\Views\clientes\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nome', 'C:\\ci\\app\\Views\\clientes\\index.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\clientes\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/index', [], true)
+ 5 APPPATH\Controllers\Clientes.php(27): view('clientes/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 04:41:12 --> ErrorException: Undefined variable $data
+[Method: GET, Route: clientes/]
+in APPPATH\Views\clientes\index.php on line 1.
+ 1 APPPATH\Views\clientes\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\ci\\app\\Views\\clientes\\index.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\clientes\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/index', [], true)
+ 5 APPPATH\Controllers\Clientes.php(27): view('clientes/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 04:41:33 --> ErrorException: Undefined variable $data
+[Method: GET, Route: clientes]
+in APPPATH\Views\clientes\index.php on line 1.
+ 1 APPPATH\Views\clientes\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\ci\\app\\Views\\clientes\\index.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\clientes\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/index', [], true)
+ 5 APPPATH\Controllers\Clientes.php(27): view('clientes/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 04:42:03 --> ErrorException: Undefined variable $data
+[Method: GET, Route: clientes]
+in APPPATH\Views\clientes\index.php on line 1.
+ 1 APPPATH\Views\clientes\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\ci\\app\\Views\\clientes\\index.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\clientes\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/index', [], true)
+ 5 APPPATH\Controllers\Clientes.php(27): view('clientes/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 04:45:35 --> ErrorException: Undefined array key "nome"
+[Method: GET, Route: clientes]
+in APPPATH\Views\clientes\index.php on line 3.
+ 1 APPPATH\Views\clientes\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', 'C:\\ci\\app\\Views\\clientes\\index.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\clientes\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/index', [], true)
+ 5 APPPATH\Controllers\Clientes.php(26): view('clientes/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 04:48:39 --> ErrorException: Undefined array key "nome"
+[Method: GET, Route: clientes]
+in APPPATH\Views\clientes\index.php on line 3.
+ 1 APPPATH\Views\clientes\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', 'C:\\ci\\app\\Views\\clientes\\index.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\clientes\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/index', [], true)
+ 5 APPPATH\Controllers\Clientes.php(26): view('clientes/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 15:54:01 --> ErrorException: Undefined variable $user
+[Method: GET, Route: clientes]
+in APPPATH\Views\clientes\index.php on line 87.
+ 1 APPPATH\Views\clientes\index.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\ci\\app\\Views\\clientes\\index.php', 87)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\clientes\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/index', [], true)
+ 5 APPPATH\Controllers\Clientes.php(26): view('clientes/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 18:22:55 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: clientes/00044455517]
+in APPPATH\Views\clientes\index.php on line 118.
+ 1 APPPATH\Views\clientes\index.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\ci\\app\\Views\\clientes\\index.php', 118)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\clientes\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/index', [], true)
+ 5 APPPATH\Controllers\Clientes.php(26): view('clientes/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455517')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 18:24:42 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: clientes/00044455517]
+in APPPATH\Views\clientes\index.php on line 118.
+ 1 APPPATH\Views\clientes\index.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\ci\\app\\Views\\clientes\\index.php', 118)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\clientes\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/index', [], true)
+ 5 APPPATH\Controllers\Clientes.php(26): view('clientes/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455517')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 18:24:51 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: clientes/00044455517]
+in APPPATH\Views\clientes\index.php on line 118.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/index', [], true)
+ 4 APPPATH\Controllers\Clientes.php(26): view('clientes/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455517')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 18:27:44 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: clientes/00044455517]
+in APPPATH\Views\clientes\index.php on line 118.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/index', [], true)
+ 4 APPPATH\Controllers\Clientes.php(26): view('clientes/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455517')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 18:29:15 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: clientes/00044455517]
+in APPPATH\Views\clientes\index.php on line 118.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/index', [], true)
+ 4 APPPATH\Controllers\Clientes.php(26): view('clientes/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455517')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 18:38:00 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: clientes/00044455517]
+in APPPATH\Views\clientes\index.php on line 118.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/index', [], true)
+ 4 APPPATH\Controllers\Clientes.php(26): view('clientes/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455517')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 18:48:18 --> ErrorException: Undefined variable $dados
+[Method: GET, Route: clientes/00044455517]
+in APPPATH\Views\clientes\lista.php on line 115.
+ 1 APPPATH\Views\clientes\lista.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'C:\\ci\\app\\Views\\clientes\\lista.php', 115)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\clientes\\lista.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/lista', [], true)
+ 5 APPPATH\Controllers\Clientes.php(28): view('clientes/lista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455517')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 18:51:05 --> ErrorException: Undefined variable $dados
+[Method: GET, Route: clientes/00044455517]
+in APPPATH\Views\clientes\lista.php on line 115.
+ 1 APPPATH\Views\clientes\lista.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'C:\\ci\\app\\Views\\clientes\\lista.php', 115)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\clientes\\lista.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/lista', [], true)
+ 5 APPPATH\Controllers\Clientes.php(28): view('clientes/lista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455517')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 18:55:18 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: clientes/00044455517]
+in APPPATH\Views\clientes\lista.php on line 117.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/lista', [], true)
+ 4 APPPATH\Controllers\Clientes.php(26): view('clientes/lista', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455517')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 18:55:19 --> ParseError: syntax error, unexpected token "endforeach"
+[Method: GET, Route: clientes/00044455517]
+in APPPATH\Views\clientes\lista.php on line 117.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/lista', [], true)
+ 3 APPPATH\Controllers\Clientes.php(26): view('clientes/lista', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455517')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 18:56:20 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: clientes/00044455517]
+in APPPATH\Views\clientes\lista.php on line 117.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/lista', [], true)
+ 4 APPPATH\Controllers\Clientes.php(26): view('clientes/lista', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455517')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 18:56:30 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: clientes/00044455517]
+in APPPATH\Views\clientes\lista.php on line 117.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/lista', [], true)
+ 4 APPPATH\Controllers\Clientes.php(26): view('clientes/lista', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455517')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 18:57:01 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: clientes/00044455517]
+in APPPATH\Views\clientes\lista.php on line 117.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/lista', [], true)
+ 4 APPPATH\Controllers\Clientes.php(26): view('clientes/lista', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455517')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 18:59:42 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: clientes/00044455517]
+in APPPATH\Views\clientes\lista.php on line 117.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/lista', [], true)
+ 4 APPPATH\Controllers\Clientes.php(26): view('clientes/lista', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455517')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 19:15:07 --> ErrorException: Undefined array key "cpf"
+[Method: GET, Route: clientes/]
+in APPPATH\Views\clientes\lista.php on line 123.
+ 1 APPPATH\Views\clientes\lista.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cpf"', 'C:\\ci\\app\\Views\\clientes\\lista.php', 123)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\clientes\\lista.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/lista', [], true)
+ 5 APPPATH\Controllers\Clientes.php(26): view('clientes/lista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 19:16:05 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: clientes/00044455514]
+in APPPATH\Views\clientes\lista.php on line 115.
+ 1 APPPATH\Views\clientes\lista.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\ci\\app\\Views\\clientes\\lista.php', 115)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\clientes\\lista.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/lista', [], true)
+ 5 APPPATH\Controllers\Clientes.php(26): view('clientes/lista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455514')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 19:27:47 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: clientes/00044455514]
+in APPPATH\Views\clientes\lista.php on line 115.
+ 1 APPPATH\Views\clientes\lista.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\ci\\app\\Views\\clientes\\lista.php', 115)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\clientes\\lista.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/lista', [], true)
+ 5 APPPATH\Controllers\Clientes.php(25): view('clientes/lista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455514')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 19:29:17 --> ParseError: syntax error, unexpected token ","
+[Method: GET, Route: clientes/]
+in APPPATH\Controllers\Clientes.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\ci\\app\\Controllers\\Clientes.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Clientes')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Clientes')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Clientes', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 19:31:33 --> ErrorException: Undefined array key "cpf"
+[Method: GET, Route: clientes/]
+in APPPATH\Views\clientes\lista.php on line 123.
+ 1 APPPATH\Views\clientes\lista.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cpf"', 'C:\\ci\\app\\Views\\clientes\\lista.php', 123)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\clientes\\lista.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/lista', [], true)
+ 5 APPPATH\Controllers\Clientes.php(25): view('clientes/lista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 19:34:02 --> TypeError: array_push(): Argument #1 ($array) must be of type array, null given
+[Method: GET, Route: clientes/00044455514]
+in APPPATH\Controllers\Clientes.php on line 24.
+ 1 APPPATH\Controllers\Clientes.php(24): array_push(null, [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455514')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 19:36:19 --> TypeError: array_push(): Argument #1 ($array) must be of type array, null given
+[Method: GET, Route: clientes/00044455514]
+in APPPATH\Controllers\Clientes.php on line 24.
+ 1 APPPATH\Controllers\Clientes.php(24): array_push(null, [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455514')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 19:36:26 --> TypeError: array_push(): Argument #1 ($array) must be of type array, App\Models\ClientesModel given
+[Method: GET, Route: clientes/00044455514]
+in APPPATH\Controllers\Clientes.php on line 24.
+ 1 APPPATH\Controllers\Clientes.php(24): array_push(Object(App\Models\ClientesModel), [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455514')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 19:37:32 --> TypeError: array_push(): Argument #1 ($array) must be of type array, App\Models\ClientesModel given
+[Method: GET, Route: clientes/00044455514]
+in APPPATH\Controllers\Clientes.php on line 24.
+ 1 APPPATH\Controllers\Clientes.php(24): array_push(Object(App\Models\ClientesModel), [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455514')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 19:37:38 --> TypeError: array_push(): Argument #1 ($array) must be of type array, null given
+[Method: GET, Route: clientes/00044455514]
+in APPPATH\Controllers\Clientes.php on line 24.
+ 1 APPPATH\Controllers\Clientes.php(24): array_push(null, [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455514')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 19:38:02 --> TypeError: array_push(): Argument #1 ($array) must be of type array, null given
+[Method: GET, Route: clientes/00044455514]
+in APPPATH\Controllers\Clientes.php on line 24.
+ 1 APPPATH\Controllers\Clientes.php(24): array_push(null, [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455514')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 19:39:04 --> TypeError: array_push(): Argument #1 ($array) must be of type array, null given
+[Method: GET, Route: clientes/00044455517]
+in APPPATH\Controllers\Clientes.php on line 24.
+ 1 APPPATH\Controllers\Clientes.php(24): array_push(null, [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455517')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 19:40:26 --> TypeError: array_push(): Argument #1 ($array) must be of type array, App\Models\ClientesModel given
+[Method: GET, Route: clientes/00044455517]
+in APPPATH\Controllers\Clientes.php on line 24.
+ 1 APPPATH\Controllers\Clientes.php(24): array_push(Object(App\Models\ClientesModel), [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455517')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 19:40:34 --> TypeError: array_push(): Argument #1 ($array) must be of type array, App\Models\ClientesModel given
+[Method: GET, Route: clientes/00044455517]
+in APPPATH\Controllers\Clientes.php on line 24.
+ 1 APPPATH\Controllers\Clientes.php(24): array_push(Object(App\Models\ClientesModel), [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455517')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 19:41:14 --> TypeError: array_push(): Argument #1 ($array) must be of type array, App\Models\ClientesModel given
+[Method: GET, Route: clientes/00044455517]
+in APPPATH\Controllers\Clientes.php on line 24.
+ 1 APPPATH\Controllers\Clientes.php(24): array_push(Object(App\Models\ClientesModel), [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455517')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 19:41:40 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: clientes/00044455517]
+in APPPATH\Views\clientes\lista.php on line 123.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/lista', [], true)
+ 4 APPPATH\Controllers\Clientes.php(25): view('clientes/lista', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455517')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 19:41:45 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: clientes/00044455517]
+in APPPATH\Views\clientes\lista.php on line 123.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/lista', [], true)
+ 4 APPPATH\Controllers\Clientes.php(25): view('clientes/lista', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455517')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 19:43:43 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: clientes/00044455517]
+in APPPATH\Views\clientes\lista.php on line 123.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/lista', [], true)
+ 4 APPPATH\Controllers\Clientes.php(25): view('clientes/lista', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->listarClientes('00044455517')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+INFO - 2024-05-13 19:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 19:45:41 --> CSRF token verified.
+CRITICAL - 2024-05-13 19:45:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "news/success.php"
+[Method: POST, Route: clientes]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news/success.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('news/success', [], true)
+ 3 APPPATH\Controllers\Clientes.php(43): view('news/success')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->insereAtualizaCliente()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+INFO - 2024-05-13 19:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 19:47:45 --> CSRF token verified.
+INFO - 2024-05-13 19:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 19:49:58 --> CSRF token verified.
+INFO - 2024-05-13 19:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 19:50:54 --> CSRF token verified.
+INFO - 2024-05-13 19:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 19:51:27 --> CSRF token verified.
+CRITICAL - 2024-05-13 19:51:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "news/success.php"
+[Method: POST, Route: clientes/deleted]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news/success.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('news/success', [], true)
+ 3 APPPATH\Controllers\Clientes.php(65): view('news/success')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->deletadoCliente()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+INFO - 2024-05-13 19:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 19:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 19:53:35 --> CSRF token verified.
+CRITICAL - 2024-05-13 19:53:35 --> ErrorException: Undefined variable $nome
+[Method: POST, Route: clientes/deleted]
+in APPPATH\Views\clientes\deletado.php on line 1.
+ 1 APPPATH\Views\clientes\deletado.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nome', 'C:\\ci\\app\\Views\\clientes\\deletado.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\clientes\\deletado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/deletado', [], true)
+ 5 APPPATH\Controllers\Clientes.php(65): view('clientes/deletado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->deletadoCliente()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+INFO - 2024-05-13 19:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 19:57:38 --> CSRF token verified.
+CRITICAL - 2024-05-13 19:57:38 --> ErrorException: Array to string conversion
+[Method: POST, Route: clientes/deleted]
+in APPPATH\Views\clientes\deletado.php on line 1.
+ 1 APPPATH\Views\clientes\deletado.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\ci\\app\\Views\\clientes\\deletado.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\clientes\\deletado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/deletado', [], true)
+ 5 APPPATH\Controllers\Clientes.php(64): view('clientes/deletado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->deletadoCliente()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+INFO - 2024-05-13 19:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 19:58:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 19:58:49 --> CSRF token verified.
+CRITICAL - 2024-05-13 19:58:49 --> ErrorException: Array to string conversion
+[Method: POST, Route: clientes/deleted]
+in APPPATH\Views\clientes\deletado.php on line 1.
+ 1 APPPATH\Views\clientes\deletado.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\ci\\app\\Views\\clientes\\deletado.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\clientes\\deletado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/deletado', [], true)
+ 5 APPPATH\Controllers\Clientes.php(64): view('clientes/deletado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->deletadoCliente()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+INFO - 2024-05-13 19:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 20:00:02 --> CSRF token verified.
+INFO - 2024-05-13 20:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 20:00:50 --> CSRF token verified.
+INFO - 2024-05-13 20:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 20:02:39 --> CSRF token verified.
+INFO - 2024-05-13 20:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 20:04:26 --> CSRF token verified.
+ERROR - 2024-05-13 20:04:26 --> mysqli_sql_exception: Duplicate entry '44455566677' for key 'clientes.cpf' in C:\ci\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\ci\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\ci\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\ci\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\ci\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\ci\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\ci\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\ci\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\ci\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\ci\app\Models\ClientesModel.php(29): CodeIgniter\BaseModel->save(Array)
+#9 C:\ci\app\Controllers\Clientes.php(41): App\Models\ClientesModel->insertClientes(Array)
+#10 C:\ci\system\CodeIgniter.php(933): App\Controllers\Clientes->insereAtualizaCliente()
+#11 C:\ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#12 C:\ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\ci\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#14 C:\ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#15 C:\ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#16 C:\ci\system\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\in...')
+#17 {main}
+CRITICAL - 2024-05-13 20:04:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '44455566677' for key 'clientes.cpf'
+[Method: POST, Route: clientes]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `clientes` (`nome`, `sobrenome`, `cpf`) VALUES (:nome:, :sobrenome:, :cpf:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Models\ClientesModel.php(29): CodeIgniter\BaseModel->save([...])
+ 7 APPPATH\Controllers\Clientes.php(41): App\Models\ClientesModel->insertClientes([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->insereAtualizaCliente()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 20:04:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '44455566677' for key 'clientes.cpf'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `clientes` (`nome`, `sobrenome`, `cpf`) VALUES (\'Maria\', \'Karla\', \'44455566677\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `clientes` (`nome`, `sobrenome`, `cpf`) VALUES (\'Maria\', \'Karla\', \'44455566677\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `clientes` (`nome`, `sobrenome`, `cpf`) VALUES (:nome:, :sobrenome:, :cpf:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Models\ClientesModel.php(29): CodeIgniter\BaseModel->save([...])
+ 9 APPPATH\Controllers\Clientes.php(41): App\Models\ClientesModel->insertClientes([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->insereAtualizaCliente()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 20:04:26 --> [Caused by] mysqli_sql_exception: Duplicate entry '44455566677' for key 'clientes.cpf'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `clientes` (`nome`, `sobrenome`, `cpf`) VALUES (\'Maria\', \'Karla\', \'44455566677\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `clientes` (`nome`, `sobrenome`, `cpf`) VALUES (\'Maria\', \'Karla\', \'44455566677\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `clientes` (`nome`, `sobrenome`, `cpf`) VALUES (\'Maria\', \'Karla\', \'44455566677\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `clientes` (`nome`, `sobrenome`, `cpf`) VALUES (:nome:, :sobrenome:, :cpf:)', [...], false)
+ 5 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\ClientesModel.php(29): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\Clientes.php(41): App\Models\ClientesModel->insertClientes([...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->insereAtualizaCliente()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+CRITICAL - 2024-05-13 20:14:34 --> ErrorException: Undefined variable $cadastre
+[Method: GET, Route: clientes/editar]
+in APPPATH\Views\templates\header.php on line 11.
+ 1 APPPATH\Views\templates\header.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cadastre', 'C:\\ci\\app\\Views\\templates\\header.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\ci\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Clientes.php(50): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->editarCliente()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+INFO - 2024-05-13 20:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 21:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 21:32:26 --> CSRF token verified.
+INFO - 2024-05-13 21:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 21:37:07 --> CSRF token verified.
+CRITICAL - 2024-05-13 21:38:01 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: clientes/atualiza]
+in APPPATH\Models\ClientesModel.php on line 58.
+ 1 APPPATH\Models\ClientesModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\ci\\app\\Models\\ClientesModel.php', 58)
+ 2 APPPATH\Controllers\Clientes.php(60): App\Models\ClientesModel->updateClientes([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->atualizaCliente()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+INFO - 2024-05-13 21:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 21:38:41 --> CSRF token verified.
+CRITICAL - 2024-05-13 21:40:19 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: clientes/atualiza]
+in APPPATH\Models\ClientesModel.php on line 58.
+ 1 APPPATH\Models\ClientesModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\ci\\app\\Models\\ClientesModel.php', 58)
+ 2 APPPATH\Controllers\Clientes.php(60): App\Models\ClientesModel->updateClientes([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->atualizaCliente()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+INFO - 2024-05-13 21:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 21:40:44 --> CSRF token verified.
+CRITICAL - 2024-05-13 21:41:44 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: clientes/atualiza]
+in APPPATH\Models\ClientesModel.php on line 58.
+ 1 APPPATH\Models\ClientesModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\ci\\app\\Models\\ClientesModel.php', 58)
+ 2 APPPATH\Controllers\Clientes.php(60): App\Models\ClientesModel->updateClientes([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->atualizaCliente()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+INFO - 2024-05-13 21:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 21:42:17 --> CSRF token verified.
+INFO - 2024-05-13 21:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 21:43:44 --> CSRF token verified.
+INFO - 2024-05-13 21:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 21:45:21 --> CSRF token verified.
+INFO - 2024-05-13 21:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 21:47:00 --> CSRF token verified.
+INFO - 2024-05-13 21:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 21:48:23 --> CSRF token verified.
+INFO - 2024-05-13 21:50:00 --> CSRF token verified.
+INFO - 2024-05-13 21:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 21:50:45 --> CSRF token verified.
+CRITICAL - 2024-05-13 21:51:20 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: clientes/atualiza]
+in APPPATH\Models\ClientesModel.php on line 59.
+ 1 APPPATH\Models\ClientesModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\ci\\app\\Models\\ClientesModel.php', 59)
+ 2 APPPATH\Controllers\Clientes.php(60): App\Models\ClientesModel->updateClientes([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->atualizaCliente()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+INFO - 2024-05-13 21:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 21:51:58 --> CSRF token verified.
+CRITICAL - 2024-05-13 21:53:04 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: clientes/atualiza]
+in APPPATH\Models\ClientesModel.php on line 59.
+ 1 APPPATH\Models\ClientesModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\ci\\app\\Models\\ClientesModel.php', 59)
+ 2 APPPATH\Controllers\Clientes.php(60): App\Models\ClientesModel->updateClientes([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->atualizaCliente()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\ci\\public\\index.php')
+INFO - 2024-05-13 21:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 21:53:32 --> CSRF token verified.
+INFO - 2024-05-13 21:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 22:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 22:02:44 --> CSRF token verified.
+INFO - 2024-05-13 22:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 22:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 22:08:31 --> CSRF token verified.

@@ -1,0 +1,1 @@
+Cliente do CPF: <?= esc($cpf) ?> DELETADO com sucesso!
