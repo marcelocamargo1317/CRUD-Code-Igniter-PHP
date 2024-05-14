@@ -2,8 +2,7 @@
 
 use App\Controllers\Clientes;
 use CodeIgniter\Router\RouteCollection;
-use App\Controllers\Pages;
-use App\Controllers\News;
+
 
 /**
  * @var RouteCollection $routes

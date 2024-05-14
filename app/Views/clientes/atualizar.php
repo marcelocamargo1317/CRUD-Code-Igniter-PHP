@@ -49,21 +49,21 @@
     <?= validation_list_errors() ?>
 
 
-    <form action="/clientes/atualizar" method="post">
+    <form action="http://localhost:8080/clientes/atualizar" method="post" id="atualizar">
         <?= csrf_field() ?>
 
         </p> Digite aqui os dados antigos e abaixo atualize-os </p>
 
         <label for="Nome">Nome</label>
-        <input type="text" name="nome_antigo" id="nome_antigo" onkeypress="return onlyAlphabets(event)" value="<?= set_value('nome_antigo') ?>">
+        <input type="text" name="nome_antigo" id="nome_antigo" onkeypress="return onlyAlphabets(event)" value="<?php echo htmlspecialchars($_GET['nome_antigo']) ?>">
         <br>
 
         <label for="sobrenome">Sobrenome</label>
-        <input type="text" name="sobrenome_antigo" id="sobrenome_antigo" onkeypress="return onlyAlphabets(event)" value="<?= set_value('sobrenome_antigo') ?>">
+        <input type="text" name="sobrenome_antigo" id="sobrenome_antigo" onkeypress="return onlyAlphabets(event)" value="<?php echo htmlspecialchars($_GET['sobrenome_antigo']) ?>">
         <br>
 
         <label for="CPF">CPF</label>
-        <input type="text" name="cpf_antigo" id="cpf_antigo" onkeypress="return onlyNumbers(event)" value="<?= set_value('cpf_antigo') ?>">
+        <input type="text" name="cpf_antigo" id="cpf_antigo" onkeypress="return onlyNumbers(event)" value="<?php echo htmlspecialchars($_GET['cpf_antigo']) ?>">
         <br>
 
         <p> Abaixo, insira os novos dados do cliente</p>
@@ -91,6 +91,12 @@
         function onlyNumbers(event) {
             var key = event.keyCode;
             return (key >= 48 && key <= 57);
+        }
+
+        function setarAtributos(nome) {
+
+            document.getElementById('atualizar').setAttribute('nome', nome);
+            console.log(nome);
         }
     </script>
 </body>

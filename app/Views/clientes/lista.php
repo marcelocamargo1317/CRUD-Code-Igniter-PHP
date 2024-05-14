@@ -2,11 +2,24 @@
 
     <script>
         function deletarUsuario(cpf) {
+
+
             var nome = document.getElementById(cpf).getElementsByClassName('nome')[0].textContent;
-            console.log('Nome:', nome);
-            console.log('CPF:', cpf);
+            var sobrenome = document.getElementById(cpf).getElementsByClassName('sobrenome')[0].textContent;
+            var deletar = confirm("Você gostaria de deletar o usuário " + nome + "?" + "\n" + "Essa ação não pode ser desfeita.");
 
         }
+
+
+
+        function editarUsuario(cpf, nome, sobrenome) {
+
+            location.href = "http://localhost:8080/clientes/atualizar?nome_antigo=" + nome + "&sobrenome_antigo=" + sobrenome + "&cpf_antigo=" + cpf;
+
+
+
+
+        };
     </script>
     <style>
         .campo {
@@ -127,8 +140,20 @@
         <div class="cpf info"><?= esc($user['cpf']) ?></div>
 
         <div class="lateral">
-            <button class="botao botao-deletar" onclick="deletarUsuario(<?= esc($user['cpf']) ?>)">Deletar</button>
-            <button class="botao botao-editar">Editar</button>
+
+            <form action="http://localhost:8080/clientes/deletar" method="post" onsubmit="return confirm('Você realmente quer EXCLUIR o usuário de CPF '+ <?= esc($user['cpf']) ?>) + '?';">
+
+                <?= csrf_field() ?>
+
+                <input type="hidden" name="nome" value=<?= esc($user['nome']) ?>>
+                <input type="hidden" name="cpf" value=<?= esc($user['cpf']) ?>>
+                <input type="hidden" name="sobrenome" value=<?= esc($user['sobrenome']) ?>>
+
+                <button class="botao botao-deletar" type="submit">Deletar</button>
+            </form>
+
+
+            <button class="botao botao-editar" onclick="editarUsuario('<?= esc($user['cpf']) ?>','<?= esc($user['nome']) ?>', '<?= esc($user['sobrenome']) ?>')">Editar</button>
         </div>
     </div>
 
