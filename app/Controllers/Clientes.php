@@ -27,8 +27,7 @@ class Clientes extends BaseController
     public function novoCliente()
     {
         helper('form');
-        return view('templates/header', ['cadastre' => 'Cadastre um novo cliente'])
-            . view('clientes/cadastrar');
+        return view('clientes/cadastrar');
     }
 
     public function insereCliente()

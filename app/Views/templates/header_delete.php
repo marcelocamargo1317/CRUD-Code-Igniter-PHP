@@ -1,10 +1,1 @@
-<!doctype html>
-<html>
-
-<head>
-    <title>CodeIgniter Tutorial</title>
-</head>
-
-<body>
-
-    <h1><?= esc($deletar) ?></h1>
+<h1><?= esc($deletar) ?></h1>
