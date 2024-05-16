@@ -58,7 +58,7 @@
 <body>
     <div class="container">
         <h1>Cadastro</h1>
-        <p>Cadastro de <b> <?= esc($nome) ?> </b> /n realizada com sucesso!</p>
+        <p>Cadastro de <b> <?= esc($nome) ?> </b> realizada com sucesso!</p>
         <a href="/" class="home">
             <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path fill="#fff" d="M12 2.69l7 6V20a2 2 0 01-2 2h-3v-7H9v7H6a2 2 0 01-2-2v-11l7-6z" />

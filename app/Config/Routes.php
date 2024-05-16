@@ -27,3 +27,10 @@ $routes->post('clientes/deletar', [Clientes::class, 'deletadoCliente']);
 
 //READ BY CPF
 $routes->get('clientes/(:segment)', [Clientes::class, 'listarClientes']);
+
+service('auth')->routes($routes);
+
+//service('auth')->routes($routes, ['except' => ['login', 'register']]);
+
+//$routes->get('login', '\App\Controllers\Auth\LoginController::loginView');
+//$routes->get('register', '\App\Controllers\Auth\RegisterController::registerView');

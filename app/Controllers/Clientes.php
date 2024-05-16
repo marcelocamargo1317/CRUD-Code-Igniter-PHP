@@ -21,7 +21,7 @@ class Clientes extends BaseController
 
         $data = ['dados' => $this->clientesModel->getClientes($cpf)];
         array_push($data, []);
-        return view('clientes/lista', $data);
+        return view('templates/header') . view('clientes/lista', $data);
     }
 
     public function novoCliente()

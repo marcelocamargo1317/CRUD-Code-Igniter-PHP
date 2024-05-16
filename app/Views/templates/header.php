@@ -1,13 +1,16 @@
-<style>
-    #titulo {
-        text-align: center;
-        background-color: #fff;
-        padding: 20px;
+<head>
+    <style>
+        #logout {
+            display: flex;
+            margin-left: 80%;
+            width: 100%;
+            height: fit-content;
+        }
+    </style>
+</head>
 
-    }
-</style>
-<div id="titulo">
-
-    <h1><?= esc($cadastre) ?></h1>
-
-</div>
+<body>
+    <div id="logout">
+        <a href="/index.php/logout"> Logout </a>
+    </div>
+</body>

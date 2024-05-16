@@ -80,6 +80,7 @@
         .botao-deletar {
             background-color: #ff5252;
             color: white;
+            margin-top: 16px;
         }
 
         .botao-editar {
